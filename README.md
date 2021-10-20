@@ -1,7 +1,12 @@
 # Welcome to my Filtering Sorting & Pagination Basic Application
 
-## This is a little bit about my application and what I wanted to accomplish with it!
+This application will rely entirely on the Front-End approach. A simple e-commerce application allowing to sort alphabetically and by price then apply other filters such as a color and brand.
 
-Trying to learn functional components and the way they can be used with React.JS is one of a few goals here.
+## Dependencies
 
-The next step is to utilize React Hooks, with also having methods and objects built out. Calling on them through props and state objects. This allows me to utilize both props being passed to the component kind of like a functional component. And, state which I will use within a companent as a sort of variable decleration.
+- React
+- Redux
+- Bulma: For styling purposes but we can use anything we would like.
+- ES6 functions such as sort, filter, and find.
+
+## This application is fairly basic and a read only state. Must make changes with pure functions
