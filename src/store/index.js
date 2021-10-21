@@ -40,10 +40,12 @@ const filterStore = (state = intialState, action) => {
             // filter by price
             return state; 
         case LOAD_DATA: 
-            // load data
-            return state; 
-        default: 
-            return state; 
+            let count = action.payload.count; 
+            let products = generate(count); 
+            return {
+                ...state,
+                products
+            };  
     }
 }; 
 export default filterStore; 
