@@ -53,9 +53,6 @@ class App extends Component {
                             <h1 className="title">
                                 Pagination, Filtering and Sorting with React
                             </h1>
-                            <h2 className="subtitle">
-                                A detailed guide
-                            </h2>
                         </div>
                     </div>
                 </section>
